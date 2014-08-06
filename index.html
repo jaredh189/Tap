@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Titulo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+               
+        
+        <link href="css/jquery.mobile.structure-1.3.2.min.css" rel="stylesheet">
+        <link href="css/jquery.mobile-1.3.2.min.css" rel="stylesheet">
+   
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script src="js/acciones.js"></script>        
+        <script src ="phonegap.js"></script>
+
+        
+        <!-- necesario*/ -->
+    </head>
+    
+    <body>
+        
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Plug In</h1>
+	</div>
+	<div data-role="content "  >	
+		<ul data-role="content " >
+			
+      <div data-role ="controlgroup" data-type="horizontal" align="center" >
+      <a href="#beep" data-transition="flip"  data-role="button" data-icon="alert"data-inline="true" id="beep" > beep</a>
+        </div>
+        <div data-role ="controlgroup" data-type="horizontal" align="center" >
+           <a href="#vibrar" data-transition="flip"  data-role="button" data-icon="alert"data-inline="true" id="vibrar" > vibrar</a>
+           </div>
+           <div data-role ="controlgroup" data-type="horizontal" align="center" >
+           <a href="#play" data-transition="flip"  data-role="button" data-icon="alert"data-inline="true" id="play" > play</a>
+        </div>	
+      
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Sonido</h4>
+	</div>
+</div>
+
+    </body>
+
+</html>
